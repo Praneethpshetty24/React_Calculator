@@ -1,0 +1,46 @@
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Calculator{
+  border: solid 2px black;
+  height: 400px;
+  width: 350px;
+  background-color: black;
+}
+.display{
+  border: solid 2px black;
+  height: 40px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: yellow;
+  text-align: center;
+}
+.Button{
+  margin-top: 40px;
+  justify-content: stretch;
+}
+.Button1 button,
+.Button2 button,
+.Button3 button{
+  background-color: blue;
+  padding: 10px;
+  margin: 15px;
+  width: 40px;
+
+}
+.Button4 button{
+  background-color: blue;
+  padding: 10px;
+  margin: 15px;
+  margin-right: 10px;
+
+}
+.Button4{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
